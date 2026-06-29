@@ -1,15 +1,28 @@
 [
-  {
-    "id": "Wx-hp5cTv5w0oCmkYADI5J3rTTwOh-aG",
-    "plugin": "templater-obsidian",
-    "language": "zh-cn",
-    "version": "2.20.6",
-    "supported_versions": "2.20.6",
-    "title": "Templater",
-    "description": "Templater Localization & Tweaks",
-    "hash": "2208d49a2208d49a2208d49a2208d49a",
-    "created_at": "2026-06-29T00:37:50.259Z",
-    "updated_at": "2026-06-29T00:37:50.259Z",
-    "type": "plugin"
-  }
+    {
+        "id": "Wx-hp5cTv5w0oCmkYADI5J3rTTwOh-aG",
+        "plugin": "templater-obsidian",
+        "language": "zh-cn",
+        "version": "2.20.6",
+        "supported_versions": "2.20.6",
+        "title": "Templater",
+        "description": "Templater Localization & Tweaks",
+        "hash": "2208d49a2208d49a2208d49a2208d49a",
+        "created_at": "2026-06-29T00:37:50.259Z",
+        "updated_at": "2026-06-29T00:37:50.259Z",
+        "type": "plugin"
+    },
+    {
+        "id": "-oibQv-ZmHaEQtPnuURhZxUNn29ou6Iv",
+        "plugin": "dataview",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "0.5.68",
+        "supported_versions": "0.5.68",
+        "title": "Dataview",
+        "description": "Dataview Localization & Tweaks",
+        "hash": "6a8ad1856a8ad1856a8ad1856a8ad185",
+        "created_at": "2026-06-29T01:36:15.519Z",
+        "updated_at": "2026-06-29T01:36:15.519Z"
+    }
 ]
