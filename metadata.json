@@ -11,18 +11,5 @@
     "created_at": "2026-06-29T00:37:50.259Z",
     "updated_at": "2026-06-29T00:37:50.259Z",
     "type": "plugin"
-  },
-  {
-    "id": "9AO7UtQd8oFLw3XWYUa39joUsQig6ELL",
-    "plugin": "dataview",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.0.0",
-    "supported_versions": "0.5.68",
-    "title": "Dataview",
-    "description": "Dataview Localization & Tweaks",
-    "hash": "2c5a74562c5a74562c5a74562c5a7456",
-    "created_at": "2026-06-29T00:45:43.403Z",
-    "updated_at": "2026-06-29T00:45:43.403Z"
   }
 ]
