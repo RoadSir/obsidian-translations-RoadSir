@@ -2657,6 +2657,10 @@
                 {
                     "source": "It can be dangerous to execute arbitrary system commands from untrusted sources. Only run system commands that you understand, from trusted sources.",
                     "target": "执行来自不可信来源的任意系统命令可能具有危险性。请仅运行您理解且来自可信来源的系统命令。"
+                },
+                {
+                    "source": "No active editor, can't append templates.",
+                    "target": "未检测到活动编辑器，无法附加模板。"
                 }
             ]
         }
