@@ -1,0 +1,1380 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian42-brat",
+        "version": "2.1.0",
+        "title": "BRAT",
+        "description": "BRAT Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "latest",
+                    "target": "最新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Plugin: ",
+                    "target": "插件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "The ",
+                    "target": "该"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " for this plugin indicates that the Obsidian version of the app needs to be ",
+                    "target": "此插件表明 Obsidian 应用版本需为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", but this installation of Obsidian is ",
+                    "target": "，但当前安装的 Obsidian 是 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Using this plugin is not recommended and may not work as expected. Use at your own risk.",
+                    "target": "不建议使用此插件，其可能无法正常工作。请自行承担风险。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Do you want to install it anyways?",
+                    "target": "是否仍要安装？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " for this plugin indicates that the plugin has ",
+                    "target": "此插件表明该插件具有 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", but you are using a mobile device.",
+                    "target": "，但您正在使用移动设备。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Do you want to forcefully run it on mobile anyways?",
+                    "target": "是否仍要在移动设备上强制运行？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " and ",
+                    "target": "和"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "coffee",
+                    "target": "咖啡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "form",
+                    "target": "form"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "hr",
+                    "target": "hr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in isPrivateRepo",
+                    "target": "isPrivateRepo 中的错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in fetchReleaseVersions",
+                    "target": "fetchReleaseVersions 中的错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabReleaseFileFromRepository",
+                    "target": "grabReleaseFileFromRepository 中的错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabCommmunityPluginList",
+                    "target": "grabCommmunityPluginList 中的错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabCommmunityThemesList",
+                    "target": "grabCommmunityThemesList 中的错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabCommmunityThemeCssFile",
+                    "target": "grabCommmunityThemeCssFile 中的错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabCommmunityThemeManifestFile",
+                    "target": "grabCommmunityThemeManifestFile 中的错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabLastCommitInfoForAFile",
+                    "target": "grabLastCommitInfoForAFile 中的错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT\nGitHub API rate limit exceeded:",
+                    "target": "BRAT\nGitHub API 速率限制已超出："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GitHub request failed:",
+                    "target": "GitHub 请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Token validation error:",
+                    "target": "令牌验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT: validateRepository",
+                    "target": "BRAT: validateRepository"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT - Local Manifest Load",
+                    "target": "BRAT - Local Manifest Load"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "reload plugin",
+                    "target": "重新加载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT: Failed to migrate tokens to SecretStorage:",
+                    "target": "BRAT: 无法将令牌迁移到 SecretStorage："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy repository identifier",
+                    "target": "无法复制仓库标识符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load settings:",
+                    "target": "无法加载设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Never mind",
+                    "target": "算了"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add theme",
+                    "target": "添加主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Repository (example: https://github.com/GitHubUserName/repository-name",
+                    "target": "仓库（示例：https://github.com/GitHubUserName/repository-name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No token provided",
+                    "target": "未提供令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Failed to validate token",
+                    "target": "令牌验证失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "brat-token-status valid",
+                    "target": "brat-token-status valid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, werden neu installierte Beta-Plugins standardmäßig automatisch aktiviert. Diese Option kann im Formular zum Hinzufügen eines Plugins pro Plugin angepasst werden.",
+                    "target": "如果启用，新安装的 Beta 插件将默认自动激活。此选项可在添加插件的表单中针对每个插件进行调整。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, prüft BRAT bei jedem Start von Obsidian alle Beta-Plugins auf Updates. Plugins mit fixierter Version werden nicht aktualisiert.",
+                    "target": "如果启用，BRAT 会在每次启动 Obsidian 时检查所有 Beta 插件的更新。固定版本的插件将不会更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, prüft BRAT bei jedem Start von Obsidian alle Beta-Themes auf Updates.",
+                    "target": "如果启用，BRAT 会在每次启动 Obsidian 时检查所有 Beta 主题的更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, wird beim Hinzufügen eines neuen Plugins standardmäßig die neueste Version ausgewählt.",
+                    "target": "如果启用，添加新插件时将默认选择最新版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, können Plugins installiert werden, die eine höhere Obsidian-Version voraussetzen. Außerdem können Desktop-only-Plugins auf Mobilgeräten installiert werden.",
+                    "target": "如果启用，可以安装需要更高版本 Obsidian 的插件。此外，仅限桌面的插件也可以在移动设备上安装。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, zeigt BRAT Popup-Benachrichtigungen zu verschiedenen Aktivitäten an. Wenn deaktiviert, werden keine Benachrichtigungen angezeigt.",
+                    "target": "如果启用，BRAT 会显示有关各种活动的弹出通知。如果禁用，则不会显示任何通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Plugin-Updates werden in eine Protokolldatei geschrieben.",
+                    "target": "插件更新将写入日志文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Protokolle werden in dieser Datei gespeichert. Füge dem Dateinamen kein .md hinzu.",
+                    "target": "日志将保存到此文件中。不要在文件名中添加.md。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Schreibt deutlich mehr Informationen in das Protokoll.",
+                    "target": "向日志写入明显更多的信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sehr ausführliche Konsolenprotokollierung. Kann zur Fehlerbehebung und Entwicklung verwendet werden.",
+                    "target": "非常详细的控制台日志记录。可用于故障排除和开发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wähle ein Secret als Token für dieses Repository aus (optional)",
+                    "target": "选择一个Secret作为此仓库的令牌（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled beta plugins will be automatically enabled after installtion by default. Note: you can toggle this on and off for each plugin in the \"add plugin\" form.",
+                    "target": "如果启用，Beta插件将在安装后默认自动启用。注意：你可以在“添加插件”表单中为每个插件单独切换此选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled all beta plugins will be checked for updates each time Obsidian starts. Note: this does not update frozen version plugins.",
+                    "target": "如果启用，每次Obsidian启动时都将检查所有Beta插件的更新。注意：这不更新冻结版本的插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled all beta themes will be checked for updates each time Obsidian starts.",
+                    "target": "如果启用，每次Obsidian启动时都将检查所有Beta主题的更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled the latest version will be selected by default when adding a new plugin.",
+                    "target": "如果启用，添加新插件时将默认选择最新版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled, plugins with higher app versions will be allowed to be installed. Also it allows desktop-only plugins to be installed on mobile devices.",
+                    "target": "如果启用，将允许安装需要更高应用版本的插件。同时也允许在移动设备上安装仅限桌面的插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "BRAT will provide popup notifications for its various activities. Turn this off means no notifications.",
+                    "target": "BRAT将为其各种活动提供弹出通知。关闭此选项表示无通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Plugin updates will be logged to a file in the log file.",
+                    "target": "插件更新将记录到日志文件中的文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Logs will be saved to this file. Don't add .md to the file name.",
+                    "target": "日志将保存到此文件。不要在文件名中添加.md。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Get a lot  more information in  the log.",
+                    "target": "在日志中获取更多信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Atomic bomb level console logging. Can be used for troubleshooting and development.",
+                    "target": "原子弹级别的控制台日志记录。可用于故障排除和开发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select a secret as token for this repository (optional)",
+                    "target": "选择一个密钥作为此仓库的令牌（可选）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、新しくインストールした Beta プラグインは既定で自動的に有効になります。個別のプラグインについては「プラグインを追加」フォームで切り替えられます。",
+                    "target": "启用后，新安装的 Beta 插件将默认自动启用。个别插件可通过“添加插件”表单进行切换。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、Obsidian の起動時にすべての Beta プラグインの更新を確認します。固定バージョンのプラグインは更新されません。",
+                    "target": "启用后，将在 Obsidian 启动时检查所有 Beta 插件的更新。固定版本的插件将不会更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、Obsidian の起動時にすべての Beta テーマの更新を確認します。",
+                    "target": "启用后，将在 Obsidian 启动时检查所有 Beta 主题的更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、新しいプラグインを追加するときに最新バージョンが既定で選択されます。",
+                    "target": "启用后，添加新插件时将默认选择最新版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、より新しい Obsidian バージョンを必要とするプラグインをインストールできます。また、デスクトップ専用プラグインをモバイル端末にインストールすることも許可されます。",
+                    "target": "启用后，可以安装需要更新版本的 Obsidian 的插件。同时，也允许在移动设备上安装仅限桌面的插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、BRAT は各種アクティビティについてポップアップ通知を表示します。オフにすると通知は表示されません。",
+                    "target": "启用后，BRAT 将在各种活动时显示弹出通知。关闭后，通知将不会显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "プラグインの更新はログファイルに記録されます。",
+                    "target": "插件更新会记录在日志文件中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ログはこのファイルに保存されます。ファイル名に .md は追加しないでください。",
+                    "target": "日志将保存到此文件。请不要在文件名中添加 .md。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ログにより多くの情報を記録します。",
+                    "target": "记录更多日志信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "非常に詳細なコンソールログを出力します。トラブルシューティングや開発に使用できます。",
+                    "target": "输出极其详细的控制台日志，可用于故障排查和开发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "このリポジトリ用のトークンとして使用するシークレットを選択します（任意）",
+                    "target": "选择用于此仓库的令牌密钥（可选）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，新安装的 Beta 插件会默认自动启用。你仍然可以在“添加插件”表单中为单个插件单独调整。",
+                    "target": "开启后，新安装的 Beta 插件会默认自动启用。你仍然可以在“添加插件”表单中为单个插件单独调整。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，每次 Obsidian 启动时都会检查并安装 Beta 插件更新。固定版本不会自动更新。",
+                    "target": "开启后，每次 Obsidian 启动时都会检查并安装 Beta 插件更新。固定版本不会自动更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，每次 Obsidian 启动时都会检查并安装 Beta 主题更新。",
+                    "target": "开启后，每次 Obsidian 启动时都会检查并安装 Beta 主题更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，添加新插件时会默认选择最新版本。",
+                    "target": "开启后，添加新插件时会默认选择最新版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，可以安装要求更高 Obsidian 版本的插件，也可以在移动端安装仅支持桌面端的插件。",
+                    "target": "开启后，可以安装要求更高 Obsidian 版本的插件，也可以在移动端安装仅支持桌面端的插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，BRAT 会用弹窗提示安装、更新等操作状态。关闭后不再显示这些通知。",
+                    "target": "开启后，BRAT 会用弹窗提示安装、更新等操作状态。关闭后不再显示这些通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，插件更新记录会写入日志文件。",
+                    "target": "开启后，插件更新记录会写入日志文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "日志会保存到这个文件。填写文件名或库内路径时不要加 .md。",
+                    "target": "日志会保存到这个文件。填写文件名或库内路径时不要加 .md。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，日志会记录更多排查信息。",
+                    "target": "开启后，日志会记录更多排查信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，控制台会输出大量调试信息，主要用于排查问题和开发。",
+                    "target": "开启后，控制台会输出大量调试信息，主要用于排查问题和开发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择一个密钥，作为访问此仓库的令牌（可选）",
+                    "target": "选择一个密钥，作为访问此仓库的令牌（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Überwachung",
+                    "target": "监控"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "GitHub Personal Access Token",
+                    "target": "GitHub 个人访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Monitoring",
+                    "target": "监控"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta plugin list",
+                    "target": "Beta 插件列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta themes list",
+                    "target": "Beta 主题列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "監視",
+                    "target": "监视"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "GitHub 個人アクセストークン",
+                    "target": "GitHub 个人访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta プラグイン一覧",
+                    "target": "Beta 插件列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta テーマ一覧",
+                    "target": "Beta 主题列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "通知与日志",
+                    "target": "通知与日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "GitHub 个人访问令牌",
+                    "target": "GitHub 个人访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta 插件列表",
+                    "target": "Beta 插件列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta 主题列表",
+                    "target": "Beta 主题列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Repository",
+                    "target": "仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "リポジトリ",
+                    "target": "仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "仓库",
+                    "target": "仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid token format",
+                    "target": "令牌格式无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No error",
+                    "target": "无错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Token has expired",
+                    "target": "令牌已过期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Token lacks required scopes. Check documentation for requirements.",
+                    "target": "令牌缺少所需的作用域。请查看文档了解要求。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Beta-Plugins nach der Installation automatisch aktivieren",
+                    "target": "安装后自动激活Beta插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Beta-Plugins beim Start automatisch aktualisieren",
+                    "target": "启动时自动更新Beta插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Beta-Themes beim Start automatisch aktualisieren",
+                    "target": "启动时自动更新Beta主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Neueste Plugin-Version standardmäßig auswählen",
+                    "target": "默认选择最新插件版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inkompatible Plugins erlauben",
+                    "target": "允许不兼容的插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Benachrichtigungen aktivieren",
+                    "target": "启用通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Protokollierung aktivieren",
+                    "target": "启用日志记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Speicherort der BRAT-Protokolldatei",
+                    "target": "BRAT 日志文件存储位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ausführliche Protokollierung aktivieren",
+                    "target": "启用详细日志记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Persönliches Zugriffstoken",
+                    "target": "个人访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-enable plugins after installation",
+                    "target": "安装后自动启用插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-update plugins at startup",
+                    "target": "启动时自动更新插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-update themes at startup",
+                    "target": "启动时自动更新主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select latest plugin version by default",
+                    "target": "默认选择最新插件版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Allow incompatible plugins",
+                    "target": "允许不兼容的插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable notifications",
+                    "target": "启用通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable logging",
+                    "target": "启用日志记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BRAT log file location",
+                    "target": "BRAT 日志文件位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable verbose logging",
+                    "target": "启用详细日志记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debugging mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Personal access token",
+                    "target": "个人访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GitHub token",
+                    "target": "GitHub 令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "インストール後に Beta プラグインを自動で有効化",
+                    "target": "安装后自动启用 Beta 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "起動時に Beta プラグインを自動更新",
+                    "target": "启动时自动更新 Beta 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "起動時に Beta テーマを自動更新",
+                    "target": "启动时自动更新 Beta 主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "既定で最新のプラグインバージョンを選択",
+                    "target": "默认选择最新插件版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "互換性のないプラグインを許可",
+                    "target": "允许不兼容的插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通知を有効化",
+                    "target": "启用通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ログを有効化",
+                    "target": "启用日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BRAT ログファイルの場所",
+                    "target": "BRAT 日志文件位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "詳細ログを有効化",
+                    "target": "启用详细日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "デバッグモード",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "個人アクセストークン",
+                    "target": "个人访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GitHub トークン",
+                    "target": "GitHub 令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "安装后自动启用 Beta 插件",
+                    "target": "安装后自动启用 Beta 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启动时自动更新 Beta 插件",
+                    "target": "启动时自动更新 Beta 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启动时自动更新 Beta 主题",
+                    "target": "启动时自动更新 Beta 主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认选择插件最新版本",
+                    "target": "默认选择插件最新版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允许安装不兼容插件",
+                    "target": "允许安装不兼容插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用通知",
+                    "target": "启用通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用日志",
+                    "target": "启用日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BRAT 日志文件",
+                    "target": "BRAT 日志文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用详细日志",
+                    "target": "启用详细日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调试模式",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "个人访问令牌",
+                    "target": "个人访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GitHub 令牌",
+                    "target": "GitHub 令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Add a beta plugin for testing (with or without version)",
+                    "target": "插件：添加测试版插件进行测试（带或不带版本）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Check for updates to all beta plugins and UPDATE",
+                    "target": "插件：检查所有测试版插件的更新并更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Only check for updates to beta plugins, but don't Update",
+                    "target": "插件：仅检查测试版插件的更新，但不更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Choose a single plugin version to update",
+                    "target": "插件：选择单个插件版本进行更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Choose a single plugin to reinstall",
+                    "target": "插件：选择单个插件重新安装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Restart a plugin that is already installed",
+                    "target": "插件：重新启动已安装的插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Disable a plugin - toggle it off",
+                    "target": "插件：禁用插件 - 将其关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Enable a plugin - toggle it on",
+                    "target": "插件：启用插件 - 切换开启"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Open the GitHub repository for a plugin",
+                    "target": "插件：打开插件的GitHub仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Open the community page for a plugin",
+                    "target": "插件：打开插件的社区页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Themes: Open the GitHub repository for a theme (appearance)",
+                    "target": "主题：打开主题（外观）的GitHub仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Open Plugin Settings Tab",
+                    "target": "插件：打开插件设置选项卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Themes: Grab a beta theme for testing from a Github repository",
+                    "target": "主题：从GitHub仓库获取测试版主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Themes: Update beta themes",
+                    "target": "主题：更新测试版主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All Commands list",
+                    "target": "所有命令列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Beispiel: BRAT-log",
+                    "target": "示例：BRAT-log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Repository (Beispiel: https://GitHub.com/githubusername/repository-name)",
+                    "target": "仓库（示例：https://GitHub.com/githubusername/repository-name）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Example: BRAT-log",
+                    "target": "示例：BRAT-log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Repository (example: https://GitHub.com/githubusername/repository-name)",
+                    "target": "仓库（示例：https://GitHub.com/githubusername/repository-name）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例：BRAT-log",
+                    "target": "示例：BRAT-log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "リポジトリ（例：https://GitHub.com/githubusername/repository-name）",
+                    "target": "仓库（示例：https://GitHub.com/githubusername/repository-name）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "示例：BRAT-log",
+                    "target": "示例：BRAT-log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "仓库（示例：https://GitHub.com/githubusername/repository-name）",
+                    "target": "仓库（示例：https://GitHub.com/githubusername/repository-name）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✓ Valid token",
+                    "target": "✓ 有效令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "TFTHacker",
+                    "target": "TFTHacker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "johannrichard",
+                    "target": "johannrichard"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "isDesktopOnly: true",
+                    "target": "isDesktopOnly: true"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "GitHub repository for beta theme:",
+                    "target": "GitHub Beta 主题仓库："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Version auswählen",
+                    "target": "选择版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Select a version",
+                    "target": "选择一个版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "バージョンを選択",
+                    "target": "选择版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "选择版本",
+                    "target": "选择版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "复选框"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"error in isPrivateRepo\",i,n),!1}},gs=async(s,e=!0,t=\"\")",
+                    "target": "error(\"isPrivateRepo 中的错误\",i,n),!1}}"
+                },
+                {
+                    "source": "error(\"Error in fetchReleaseVersions\",i,n),null}},de=async(s,e,t=!0,i=!1,n=\"\")",
+                    "target": "error(\"fetchReleaseVersions 中的错误\",i,n),null}},de=async(s,e,t=!0,i=!1,n=\"\")"
+                },
+                {
+                    "source": "setText(\"No token provided\")",
+                    "target": "setText(\"未提供令牌\")"
+                },
+                {
+                    "source": "error(\"Token validation error:\",c),(p=this.statusEl)==null||p.setText(\"Failed to validate token\")",
+                    "target": "error(\"令牌验证错误:\",c),(p=this.statusEl)==null||p.setText(\"验证令牌失败\")"
+                },
+                {
+                    "source": "error(`BRAT: validateRepository ${l}`)",
+                    "target": "error(`BRAT: 验证仓库 ${l}`)"
+                },
+                {
+                    "source": "appendText(\"Plugin: \")",
+                    "target": "appendText(\"插件：\")"
+                },
+                {
+                    "source": "appendText(\"The \")",
+                    "target": "appendText(\"该\")"
+                },
+                {
+                    "source": "appendText(\" for this plugin indicates that the Obsidian version of the app needs to be \")",
+                    "target": "appendText(\" 对于此插件表示应用的 Obsidian 版本需要为 \")"
+                },
+                {
+                    "source": "appendText(\", but this installation of Obsidian is \")",
+                    "target": "appendText(\"，但此 Obsidian 安装版本为 \")"
+                },
+                {
+                    "source": "appendText(\"Using this plugin is not recommended and may not work as expected. Use at your own risk.\")",
+                    "target": "appendText(\"不建议使用此插件，可能无法按预期工作。使用风险自负。\")"
+                },
+                {
+                    "source": "appendText(\"Do you want to install it anyways?\")",
+                    "target": "appendText(\"您是否仍想安装它？\")"
+                },
+                {
+                    "source": "appendText(\" for this plugin indicates that the plugin has \")",
+                    "target": "appendText(\" 对于此插件，表示该插件已 \")"
+                },
+                {
+                    "source": "appendText(\", but you are using a mobile device.\")",
+                    "target": "appendText(\"，但您正在使用移动设备。\")"
+                },
+                {
+                    "source": "appendText(\"Do you want to forcefully run it on mobile anyways?\")",
+                    "target": "appendText(\"您是否仍想强制在移动设备上运行？\")"
+                },
+                {
+                    "source": "error(\"BRAT: Failed to migrate tokens to SecretStorage:\",n)}}var Y=require(\"obsidian\")",
+                    "target": "error(\"BRAT: 未能将令牌迁移到SecretStorage:\",n)}}var Y=require(\"obsidian\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Repository (example: https://github.com/GitHubUserName/repository-name\")",
+                    "target": "setPlaceholder(\"仓库 (示例: https://github.com/GitHubUserName/repository-name)\")"
+                },
+                {
+                    "source": "setButtonText(\"Never mind\")",
+                    "target": "setButtonText(\"没关系\")"
+                },
+                {
+                    "source": "setButtonText(\"Add theme\")",
+                    "target": "setButtonText(\"添加主题\")"
+                },
+                {
+                    "source": "appendText(\" and \")",
+                    "target": "appendText(\" 和 \")"
+                },
+                {
+                    "source": "text:`Scopes: ${e.currentScopes.join(\", \")}`",
+                    "target": "text:`作用域： ${e.currentScopes.join(\", \")}`"
+                },
+                {
+                    "source": "text:`Rate Limit: ${e.rateLimit.remaining}/${e.rateLimit.limit}`",
+                    "target": "text:`速率限制： ${e.rateLimit.remaining}/${e.rateLimit.limit}`"
+                },
+                {
+                    "source": "text:`Valid prefixes: ${(n=e.details.validPrefixes)==null?void 0:n.join(\", \")}`",
+                    "target": "text:`有效前缀： ${(n=e.details.validPrefixes)==null?void 0:n.join(\", \")}`"
+                },
+                {
+                    "source": "text:`Required scopes: ${(r=e.details.requiredScopes)==null?void 0:r.join(\", \")}`",
+                    "target": "text:`必需作用域： ${(r=e.details.requiredScopes)==null?void 0:r.join(\", \")}`"
+                },
+                {
+                    "source": "name:\"Beta-Plugins nach der Installation automatisch aktivieren\"",
+                    "target": "name:\"安装后自动激活Beta插件\""
+                },
+                {
+                    "source": "name:\"Beta-Plugins beim Start automatisch aktualisieren\"",
+                    "target": "name:\"启动时自动更新Beta插件\""
+                },
+                {
+                    "source": "name:\"Beta-Themes beim Start automatisch aktualisieren\"",
+                    "target": "name:\"启动时自动更新Beta主题\""
+                },
+                {
+                    "source": "name:\"Inkompatible Plugins erlauben\"",
+                    "target": "name:\"允许不兼容的插件\""
+                },
+                {
+                    "source": "name:\"Benachrichtigungen aktivieren\"",
+                    "target": "name:\"激活通知\""
+                },
+                {
+                    "source": "name:\"Protokollierung aktivieren\"",
+                    "target": "name:\"启用日志记录\""
+                },
+                {
+                    "source": "name:\"Speicherort der BRAT-Protokolldatei\"",
+                    "target": "name:\"BRAT日志文件存储位置\""
+                },
+                {
+                    "source": "name:\"Auto-enable plugins after installation\"",
+                    "target": "name:\"安装后自动启用插件\""
+                },
+                {
+                    "source": "name:\"Auto-update plugins at startup\"",
+                    "target": "name:\"启动时自动更新插件\""
+                },
+                {
+                    "source": "name:\"Auto-update themes at startup\"",
+                    "target": "name:\"启动时自动更新主题\""
+                },
+                {
+                    "source": "name:\"Select latest plugin version by default\"",
+                    "target": "name:\"默认选择最新插件版本\""
+                },
+                {
+                    "source": "name:\"Allow incompatible plugins\"",
+                    "target": "name:\"允许不兼容的插件\""
+                },
+                {
+                    "source": "name:\"Enable notifications\"",
+                    "target": "name:\"启用通知\""
+                },
+                {
+                    "source": "name:\"Enable logging\"",
+                    "target": "name:\"启用日志记录\""
+                },
+                {
+                    "source": "name:\"BRAT log file location\"",
+                    "target": "name:\"BRAT日志文件位置\""
+                },
+                {
+                    "source": "name:\"Enable verbose logging\"",
+                    "target": "name:\"启用详细日志记录\""
+                },
+                {
+                    "source": "name:\"Debugging mode\"",
+                    "target": "name:\"调试模式\""
+                },
+                {
+                    "source": "name:\"Personal access token\"",
+                    "target": "name:\"个人访问令牌\""
+                },
+                {
+                    "source": "name:\"GitHub token\"",
+                    "target": "name:\"GitHub令牌\""
+                },
+                {
+                    "source": "text:`${i.versionLabel(e.version)} ${e.prerelease?i.prereleaseSuffix:\"\"}`",
+                    "target": "text:`${i.versionLabel(e.version)} ${e.prerelease?i.prereleaseSuffix:\"\"}`"
+                },
+                {
+                    "source": "text:\"isDesktopOnly: true\"",
+                    "target": "text:\"isDesktopOnly: true\""
+                },
+                {
+                    "source": "text:\"GitHub repository for beta theme:\"",
+                    "target": "text:\"测试版主题的GitHub仓库:\""
+                },
+                {
+                    "source": "name:\"Plugins: Add a beta plugin for testing (with or without version)\"",
+                    "target": "name:\"插件：添加一个测试版插件用于测试（含版本或不含版本）\""
+                },
+                {
+                    "source": "name:\"Plugins: Check for updates to all beta plugins and UPDATE\"",
+                    "target": "name:\"插件：检查所有测试版插件的更新并更新\""
+                },
+                {
+                    "source": "name:\"Plugins: Only check for updates to beta plugins, but don't Update\"",
+                    "target": "name:\"插件：仅检查测试版插件的更新，但不更新\""
+                },
+                {
+                    "source": "name:\"Plugins: Choose a single plugin version to update\"",
+                    "target": "name:\"插件：选择要更新的单个插件版本\""
+                },
+                {
+                    "source": "name:\"Plugins: Choose a single plugin to reinstall\"",
+                    "target": "name:\"插件：选择要重新安装的单个插件\""
+                },
+                {
+                    "source": "name:\"Plugins: Restart a plugin that is already installed\"",
+                    "target": "name:\"插件：重启已安装的插件\""
+                },
+                {
+                    "source": "name:\"Plugins: Disable a plugin - toggle it off\"",
+                    "target": "name:\"插件：禁用插件 - 切换关闭\""
+                },
+                {
+                    "source": "name:\"Plugins: Enable a plugin - toggle it on\"",
+                    "target": "name:\"插件：启用插件 - 切换开启\""
+                },
+                {
+                    "source": "name:\"Plugins: Open the GitHub repository for a plugin\"",
+                    "target": "name:\"插件：打开插件的 GitHub 仓库\""
+                },
+                {
+                    "source": "name:\"Plugins: Open the community page for a plugin\"",
+                    "target": "name:\"插件：打开插件的社区页面\""
+                },
+                {
+                    "source": "name:\"Themes: Open the GitHub repository for a theme (appearance)\"",
+                    "target": "name:\"主题：打开主题（外观）的 GitHub 仓库\""
+                },
+                {
+                    "source": "name:\"Plugins: Open Plugin Settings Tab\"",
+                    "target": "name:\"插件：打开插件设置选项卡\""
+                },
+                {
+                    "source": "name:\"Themes: Grab a beta theme for testing from a Github repository\"",
+                    "target": "name:\"主题：从GitHub仓库获取测试用的beta主题\""
+                },
+                {
+                    "source": "name:\"Themes: Update beta themes\"",
+                    "target": "name:\"更新beta主题\""
+                },
+                {
+                    "source": "name:\"All Commands list\"",
+                    "target": "name:\"所有命令列表\""
+                },
+                {
+                    "source": "Failed to copy repository identifier",
+                    "target": "复制仓库标识符失败"
+                }
+            ]
+        }
+    }
+}
