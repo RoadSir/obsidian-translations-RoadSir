@@ -1,0 +1,790 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "dataview",
+        "version": "1.0.0",
+        "title": "Dataview",
+        "description": "Dataview Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.68",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "(已禁用；在设置中启用)",
+                    "target": "(已禁用；在设置中启用)"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "td.svelte-egt0yd{border-right:1px solid var(--background-modifier-border)}.week-num.svelte-egt0yd{background-color:var(--color-background-weeknum);border-radius:4px;color:var(--color-text-weeknum);cursor:pointer;font-size:0.65em;height:100%;padding:4px;text-align:center;transition:background-color 0.1s ease-in, color 0.1s ease-in;vertical-align:baseline}.week-num.svelte-egt0yd:hover{background-color:var(--interactive-hover)}.week-num.active.svelte-egt0yd:hover{background-color:var(--interactive-accent-hover)}.active.svelte-egt0yd{color:var(--text-on-accent);background-color:var(--interactive-accent)}.dot-container.svelte-egt0yd{display:flex;flex-wrap:wrap;justify-content:center;line-height:6px;min-height:6px}",
+                    "target": "td.svelte-egt0yd{border-right:1px solid var(--background-modifier-border)}.week-num.svelte-egt0yd{background-color:var(--color-background-weeknum);border-radius:4px;color:var(--color-text-weeknum);cursor:pointer;font-size:0.65em;height:100%;padding:4px;text-align:center;transition:background-color 0.1s ease-in, color 0.1s ease-in;vertical-align:baseline}.week-num.svelte-egt0yd:hover{background-color:var(--interactive-hover)}.week-num.active.svelte-egt0yd:hover{background-color:var(--interactive-accent-hover)}.active.svelte-egt0yd{color:var(--text-on-accent);background-color:var(--interactive-accent)}.dot-container.svelte-egt0yd{display:flex;flex-wrap:wrap;justify-content:center;line-height:6px;min-height:6px}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "<空列表>",
+                    "target": "<空列表>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", ",
+                    "target": ", "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "<空对象>",
+                    "target": "<空对象>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "启用后，Dataview视图里勾选任务时自动添加完成日期。",
+                    "target": "启用后，Dataview视图里勾选任务时自动添加完成日期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "默认字段名和日期格式示例: - [x] my task [completion:: 2022-01-01]",
+                    "target": "默认字段名和日期格式示例: - [x] my task [completion:: 2022-01-01]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "启用后，使用表情符号简写替代内联字段格式填充隐式任务字段\"completion\"。",
+                    "target": "启用后，使用表情符号简写替代内联字段格式填充隐式任务字段\"completion\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "示例: - [x] my task ✅ 2022-01-01",
+                    "target": "示例: - [x] my task ✅ 2022-01-01"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "禁用此选项可自定义完成日期格式或字段名，或使用 Dataview 内联字段格式。",
+                    "target": "禁用此选项可自定义完成日期格式或字段名，或使用 Dataview 内联字段格式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "仅在启用“自动任务完成跟踪”时可用。",
+                    "target": "仅在启用“自动任务完成跟踪”时可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "用于在Dataview视图中切换任务复选框时作为任务完成日期的内联字段键的文本。",
+                    "target": "用于在Dataview视图中切换任务复选框时作为任务完成日期的内联字段键的文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "仅在启用“自动任务完成跟踪”且禁用“使用表情符号简写完成”时可用。",
+                    "target": "仅在启用“自动任务完成跟踪”且禁用“使用表情符号简写完成”时可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "移除Markdown时出错：%s",
+                    "target": "移除Markdown时出错：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法将值转换为JSON字符串：",
+                    "target": "无法将值转换为JSON字符串："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用/禁用常规内联Dataview查询",
+                    "target": "启用/禁用常规内联Dataview查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用/禁用DataviewJS查询",
+                    "target": "启用/禁用DataviewJS查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用/禁用内联DataviewJS查询。需启用DataviewJS查询",
+                    "target": "启用/禁用内联DataviewJS查询。需启用DataviewJS查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用/禁用阅读视图中内联字段的高亮/美化渲染",
+                    "target": "启用/禁用阅读视图中内联字段的高亮/美化渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用/禁用实时预览中内联字段的高亮/美化渲染",
+                    "target": "启用/禁用实时预览中内联字段的高亮/美化渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "DataviewJS块的关键词。默认为'dataviewjs'。更改需重载生效",
+                    "target": "DataviewJS块的关键词。默认为'dataviewjs'。更改需重载生效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "内联查询前缀（标记为Dataview查询）。默认为'='。",
+                    "target": "内联查询前缀（标记为Dataview查询）。默认为'='。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "JavaScript内联查询前缀（标记为DataviewJS查询）。默认为'$='。",
+                    "target": "JavaScript内联查询前缀（标记为DataviewJS查询）。默认为'$='。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用后，内联查询也会在完整代码块中评估。",
+                    "target": "启用后，内联查询也会在完整代码块中评估。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "关闭后，TASK和TABLE查询结果头中的小数字将隐藏。",
+                    "target": "关闭后，TASK和TABLE查询结果头中的小数字将隐藏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置后，返回0结果的查询将显示警告消息。",
+                    "target": "设置后，返回0结果的查询将显示警告消息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "null/不存在项在表格中默认显示的内容。支持Markdown。",
+                    "target": "null/不存在项在表格中默认显示的内容。支持Markdown。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "等待文件停止更改的毫秒数后再更新视图。",
+                    "target": "等待文件停止更改的毫秒数后再更新视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "表格中默认ID列名称（自动生成的链接源文件的第一列）。",
+                    "target": "表格中默认ID列名称（自动生成的链接源文件的第一列）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅在“自动任务完成跟踪”启用时可用。",
+                    "target": "仅在“自动任务完成跟踪”启用时可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅在“自动任务完成跟踪”启用且“使用表情符号简写完成”禁用时可用。",
+                    "target": "仅在“自动任务完成跟踪”启用且“使用表情符号简写完成”禁用时可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用后，Dataview任务自动完成子任务。",
+                    "target": "启用后，Dataview任务自动完成子任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用内联查询",
+                    "target": "启用内联查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用JavaScript查询",
+                    "target": "启用JavaScript查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用内联JavaScript查询",
+                    "target": "启用内联JavaScript查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "阅读视图启用内联字段高亮",
+                    "target": "阅读视图启用内联字段高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "实时预览启用内联字段高亮",
+                    "target": "实时预览启用内联字段高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "代码块",
+                    "target": "代码块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "DataviewJS关键词",
+                    "target": "DataviewJS关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "内联查询前缀",
+                    "target": "内联查询前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "JavaScript内联查询前缀",
+                    "target": "JavaScript内联查询前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "代码内联查询",
+                    "target": "代码内联查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "视图",
+                    "target": "视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示结果数",
+                    "target": "显示结果数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "空结果警告",
+                    "target": "空结果警告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "null显示为",
+                    "target": "null显示为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动刷新视图",
+                    "target": "自动刷新视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "刷新间隔",
+                    "target": "刷新间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "日期格式",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "日期时间格式",
+                    "target": "日期时间格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "表格",
+                    "target": "表格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "主列名",
+                    "target": "主列名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "分组列名",
+                    "target": "分组列名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "任务",
+                    "target": "任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动完成追踪",
+                    "target": "自动完成追踪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用表情符号标记完成",
+                    "target": "使用表情符号标记完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "完成字段名",
+                    "target": "完成字段名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "完成日期格式",
+                    "target": "完成日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "递归子任务完成",
+                    "target": "递归子任务完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "dataviewjs",
+                    "target": "dataviewjs"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "文件",
+                    "target": "文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "分组",
+                    "target": "分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "缓存数据视图索引中的文件和章节元数据",
+                    "target": "缓存数据视图索引中的文件和章节元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "未结束的引号字段",
+                    "target": "未结束的引号字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "引号字段结尾引号格式错误",
+                    "target": "引号字段结尾引号格式错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "数据视图：任务查询无结果",
+                    "target": "数据视图：任务查询无结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "数据视图：列表查询无结果",
+                    "target": "数据视图：列表查询无结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "数据视图：表格查询无结果",
+                    "target": "数据视图：表格查询无结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "localforage",
+                    "target": "localforage"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "强制刷新所有视图和块",
+                    "target": "强制刷新所有视图和块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "丢弃所有缓存文件元数据",
+                    "target": "丢弃所有缓存文件元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重建当前视图",
+                    "target": "重建当前视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "上月",
+                    "target": "上月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "下月",
+                    "target": "下月"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "appendText(\": \")",
+                    "target": "appendText(\": \")"
+                },
+                {
+                    "source": "appendText(`<未知部件 '${field.$widget}>`)",
+                    "target": "appendText(`<未知部件 '${field.$widget}>`)"
+                },
+                {
+                    "source": "appendText(\"<空列表>\")",
+                    "target": "appendText(\"<空列表>\")"
+                },
+                {
+                    "source": "appendText(\", \")",
+                    "target": "appendText(\", \")"
+                },
+                {
+                    "source": "appendText(\"<空对象>\")",
+                    "target": "appendText(\"<空对象>\")"
+                },
+                {
+                    "source": "log(`Dataview: 遇到循环列表 (行号 ${lineno}; 子项 ${this.listItems[lineno].children.join(\", \")})`)",
+                    "target": "log(`Dataview: 遇到循环列表 (行号 ${lineno}; 子项 ${this.listItems[lineno].children.join(\", \")})`)"
+                },
+                {
+                    "source": "log(`Dataview: re-initialized index with ${files.length} files (${(Date.now()-start)/1000}s)`)",
+                    "target": "log(`Dataview: re-initialized index with ${files.length} files (${(Date.now()-start)/1000}s)`)"
+                },
+                {
+                    "source": "log(`Dataview: all ${files.length} files have been indexed in ${(Date.now()-reloadStart)/1000}s (${cached} cached, ${skipped} skipped).`)",
+                    "target": "log(`Dataview: all ${files.length} files have been indexed in ${(Date.now()-reloadStart)/1000}s (${cached} cached, ${skipped} skipped).`)"
+                },
+                {
+                    "source": "log(`Dataview: 丢弃了 ${remaining.size} 个已删除文件的缓存条目。`)",
+                    "target": "log(`Dataview: 丢弃了 ${remaining.size} 个已删除文件的缓存条目。`)"
+                },
+                {
+                    "source": "log(`Dataview: 版本 ${this.manifest.version} (需要 obsidian ${this.manifest.minAppVersion})`)",
+                    "target": "log(`Dataview: 版本 ${this.manifest.version} (需要 obsidian ${this.manifest.minAppVersion})`)"
+                },
+                {
+                    "source": "log(`Dataview: 版本 ${this.manifest.version} 已卸载.`)",
+                    "target": "log(`Dataview: 版本 ${this.manifest.version} 已卸载.`)"
+                },
+                {
+                    "source": "setName(\"启用内联查询\")",
+                    "target": "setName(\"启用内联查询\")"
+                },
+                {
+                    "source": "setDesc(\"启用/禁用常规内联Dataview查询\")",
+                    "target": "setDesc(\"启用/禁用常规内联Dataview查询\")"
+                },
+                {
+                    "source": "setName(\"启用JavaScript查询\")",
+                    "target": "setName(\"启用JavaScript查询\")"
+                },
+                {
+                    "source": "setDesc(\"启用/禁用DataviewJS查询\")",
+                    "target": "setDesc(\"启用/禁用DataviewJS查询\")"
+                },
+                {
+                    "source": "setName(\"启用内联JavaScript查询\")",
+                    "target": "setName(\"启用内联JavaScript查询\")"
+                },
+                {
+                    "source": "setDesc(\"启用/禁用内联DataviewJS查询。需启用DataviewJS查询\")",
+                    "target": "setDesc(\"启用/禁用内联DataviewJS查询。需启用DataviewJS查询\")"
+                },
+                {
+                    "source": "setName(\"阅读视图启用内联字段高亮\")",
+                    "target": "setName(\"阅读视图启用内联字段高亮\")"
+                },
+                {
+                    "source": "setDesc(\"启用/禁用阅读视图中内联字段的高亮/美化渲染\")",
+                    "target": "setDesc(\"启用/禁用阅读视图中内联字段的高亮/美化渲染\")"
+                },
+                {
+                    "source": "setName(\"实时预览启用内联字段高亮\")",
+                    "target": "setName(\"实时预览启用内联字段高亮\")"
+                },
+                {
+                    "source": "setDesc(\"启用/禁用实时预览中内联字段的高亮/美化渲染\")",
+                    "target": "setDesc(\"启用/禁用实时预览中内联字段的高亮/美化渲染\")"
+                },
+                {
+                    "source": "setName(\"代码块\")",
+                    "target": "setName(\"代码块\")"
+                },
+                {
+                    "source": "setName(\"DataviewJS关键词\")",
+                    "target": "setName(\"DataviewJS关键词\")"
+                },
+                {
+                    "source": "setDesc(\"DataviewJS块的关键词。默认为'dataviewjs'。更改需重载生效\")",
+                    "target": "setDesc(\"DataviewJS块的关键词。默认为'dataviewjs'。更改需重载生效\")"
+                },
+                {
+                    "source": "setName(\"内联查询前缀\")",
+                    "target": "setName(\"内联查询前缀\")"
+                },
+                {
+                    "source": "setDesc(\"内联查询前缀（标记为Dataview查询）。默认为'='。\")",
+                    "target": "setDesc(\"内联查询前缀（标记为Dataview查询）。默认为'='。\")"
+                },
+                {
+                    "source": "setName(\"JavaScript内联查询前缀\")",
+                    "target": "setName(\"JavaScript内联查询前缀\")"
+                },
+                {
+                    "source": "setDesc(\"JavaScript内联查询前缀（标记为DataviewJS查询）。默认为'$='。\")",
+                    "target": "setDesc(\"JavaScript内联查询前缀（标记为DataviewJS查询）。默认为'$='。\")"
+                },
+                {
+                    "source": "setName(\"代码内联查询\")",
+                    "target": "setName(\"代码内联查询\")"
+                },
+                {
+                    "source": "setDesc(\"启用后，内联查询也会在完整代码块中评估。\")",
+                    "target": "setDesc(\"启用后，内联查询也会在完整代码块中评估。\")"
+                },
+                {
+                    "source": "setName(\"视图\")",
+                    "target": "setName(\"视图\")"
+                },
+                {
+                    "source": "setName(\"显示结果数\")",
+                    "target": "setName(\"显示结果数\")"
+                },
+                {
+                    "source": "setDesc(\"关闭后，TASK和TABLE查询结果头中的小数字将隐藏。\")",
+                    "target": "setDesc(\"关闭后，TASK和TABLE查询结果头中的小数字将隐藏。\")"
+                },
+                {
+                    "source": "setName(\"空结果警告\")",
+                    "target": "setName(\"空结果警告\")"
+                },
+                {
+                    "source": "setDesc(\"设置后，返回0结果的查询将显示警告消息。\")",
+                    "target": "setDesc(\"设置后，返回0结果的查询将显示警告消息。\")"
+                },
+                {
+                    "source": "setName(\"null显示为\")",
+                    "target": "setName(\"null显示为\")"
+                },
+                {
+                    "source": "setDesc(\"null/不存在项在表格中默认显示的内容。支持Markdown。\")",
+                    "target": "setDesc(\"null/不存在项在表格中默认显示的内容。支持Markdown。\")"
+                },
+                {
+                    "source": "setName(\"自动刷新视图\")",
+                    "target": "setName(\"自动刷新视图\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, views will automatically refresh when files in your vault change; this can negatively affect\"+\" some functionality like embeds in views, so turn it off if such functionality is not working.\")",
+                    "target": "setDesc(\"If enabled, views will automatically refresh when files in your vault change; this can negatively affect\"+\" some functionality like embeds in views, so turn it off if such functionality is not working.\")"
+                },
+                {
+                    "source": "setName(\"刷新间隔\")",
+                    "target": "setName(\"刷新间隔\")"
+                },
+                {
+                    "source": "setDesc(\"等待文件停止更改的毫秒数后再更新视图。\")",
+                    "target": "setDesc(\"等待文件停止更改的毫秒数后再更新视图。\")"
+                },
+                {
+                    "source": "setName(\"日期格式\")",
+                    "target": "setName(\"日期格式\")"
+                },
+                {
+                    "source": "setName(\"主列名\")",
+                    "target": "setName(\"主列名\")"
+                },
+                {
+                    "source": "setDesc(\"表格中默认ID列名称（自动生成的链接源文件的第一列）。\")",
+                    "target": "setDesc(\"表格中默认ID列名称（自动生成的链接源文件的第一列）。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"文件\")",
+                    "target": "setPlaceholder(\"文件\")"
+                },
+                {
+                    "source": "setName(\"分组列名\")",
+                    "target": "setName(\"分组列名\")"
+                },
+                {
+                    "source": "setDesc(\"The name of the default ID column in tables, when the table is on grouped data; this is the auto-generated first column\"+\"that links to the source file/group.\")",
+                    "target": "setDesc(\"The name of the default ID column in tables, when the table is on grouped data; this is the auto-generated first column\"+\"that links to the source file/group.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"分组\")",
+                    "target": "setPlaceholder(\"分组\")"
+                },
+                {
+                    "source": "setName(\"任务\")",
+                    "target": "setName(\"任务\")"
+                },
+                {
+                    "source": "setName(\"自动完成追踪\")",
+                    "target": "setName(\"自动完成追踪\")"
+                },
+                {
+                    "source": "appendText(\"启用后，Dataview视图里勾选任务时自动添加完成日期。\")",
+                    "target": "appendText(\"启用后，Dataview视图里勾选任务时自动添加完成日期。\")"
+                },
+                {
+                    "source": "setName(\"使用表情符号标记完成\")",
+                    "target": "setName(\"使用表情符号标记完成\")"
+                },
+                {
+                    "source": "appendText(\"禁用此选项可自定义完成日期格式或字段名，或使用 Dataview 内联字段格式。\")",
+                    "target": "appendText(\"禁用此选项可自定义完成日期格式或字段名，或使用 Dataview 内联字段格式。\")"
+                },
+                {
+                    "source": "appendText(\"仅在启用“自动任务完成跟踪”时可用。\")",
+                    "target": "appendText(\"仅在启用“自动任务完成跟踪”时可用。\")"
+                },
+                {
+                    "source": "setDesc(\"仅在“自动任务完成跟踪”启用时可用。\")",
+                    "target": "setDesc(\"仅在“自动任务完成跟踪”启用时可用。\")"
+                },
+                {
+                    "source": "setName(\"完成字段名\")",
+                    "target": "setName(\"完成字段名\")"
+                },
+                {
+                    "source": "appendText(\"用于在Dataview视图中切换任务复选框时作为任务完成日期的内联字段键的文本。\")",
+                    "target": "appendText(\"用于在Dataview视图中切换任务复选框时作为任务完成日期的内联字段键的文本。\")"
+                },
+                {
+                    "source": "appendText(\"仅在启用“自动任务完成跟踪”且禁用“使用表情符号简写完成”时可用。\")",
+                    "target": "appendText(\"仅在启用“自动任务完成跟踪”且禁用“使用表情符号简写完成”时可用。\")"
+                },
+                {
+                    "source": "setDesc(\"仅在“自动任务完成跟踪”启用且“使用表情符号简写完成”禁用时可用。\")",
+                    "target": "setDesc(\"仅在“自动任务完成跟踪”启用且“使用表情符号简写完成”禁用时可用。\")"
+                },
+                {
+                    "source": "setName(\"完成日期格式\")",
+                    "target": "setName(\"完成日期格式\")"
+                },
+                {
+                    "source": "setName(\"递归子任务完成\")",
+                    "target": "setName(\"递归子任务完成\")"
+                },
+                {
+                    "source": "setDesc(\"启用后，Dataview任务自动完成子任务。\")",
+                    "target": "setDesc(\"启用后，Dataview任务自动完成子任务。\")"
+                },
+                {
+                    "source": "description:\"缓存数据视图索引中的文件和章节元数据\"",
+                    "target": "description:\"缓存数据视图索引中的文件和章节元数据\""
+                },
+                {
+                    "source": "name:\"Dataview Indexer \"",
+                    "target": "name:\"Dataview Indexer \""
+                },
+                {
+                    "source": "innerText=\"(已禁用；在设置中启用)\"",
+                    "target": "innerText=\"(已禁用；在设置中启用)\""
+                },
+                {
+                    "source": "name:\"强制刷新所有视图和块\"",
+                    "target": "name:\"强制刷新所有视图和块\""
+                },
+                {
+                    "source": "name:\"丢弃所有缓存文件元数据\"",
+                    "target": "name:\"丢弃所有缓存文件元数据\""
+                },
+                {
+                    "source": "name:\"重建当前视图\"",
+                    "target": "name:\"重建当前视图\""
+                }
+            ]
+        }
+    }
+}
