@@ -11,5 +11,31 @@
         "created_at": "2026-06-29T00:37:50.259Z",
         "updated_at": "2026-06-29T00:37:50.259Z",
         "type": "plugin"
+    },
+    {
+        "id": "lpXFiLUi9z2wXLArfWG91N7ZkPv86Cc3",
+        "plugin": "dataview",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "0.5.68",
+        "title": "Dataview",
+        "description": "Dataview Localization & Tweaks",
+        "hash": "41fb924c41fb924c41fb924c41fb924c",
+        "created_at": "2026-06-29T00:45:43.402Z",
+        "updated_at": "2026-06-29T00:45:43.402Z"
+    },
+    {
+        "id": "9AO7UtQd8oFLw3XWYUa39joUsQig6ELL",
+        "plugin": "dataview",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "0.5.68",
+        "title": "Dataview",
+        "description": "Dataview Localization & Tweaks",
+        "hash": "2c5a74562c5a74562c5a74562c5a7456",
+        "created_at": "2026-06-29T00:45:43.403Z",
+        "updated_at": "2026-06-29T00:45:43.403Z"
     }
 ]
